@@ -43,8 +43,6 @@ nav {
 .nav-list {
     gap: 23px;
 }
-.nav-list li {
-}
 nav a {
     padding: 23px 0;
     color: var(--secondary-text);
