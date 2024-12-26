@@ -23,7 +23,7 @@ nav li{
 }
 
 /* STYLING PAGE */
-nav, .nav-list {
+.nav-list, .center-nav {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -33,7 +33,11 @@ nav {
     position: absolute;
     top: 0;
     width: 100%;
-    padding: 23px 208px;
+}
+nav .center-nav {
+    margin: 0 auto;
+    max-width: 1028px;
+    min-width: fit-content;
 }
 .logo {
     font-size: 24px;
@@ -43,7 +47,11 @@ nav {
 .nav-list {
     gap: 23px;
 }
+.nav-list li {
+    
+}
 nav a {
+    display: block;
     padding: 23px 0;
     color: var(--secondary-text);
 }
@@ -56,14 +64,18 @@ nav a:hover {
     color: var(--secondary-text);
 }
 #hero-section {
-    height: 535px;
     width: 100%;
+}
+.hero-wrapper {
+    height: 535px;
+    max-width: 1028px;
+    min-width: fit-content;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 208px;
 }
-#hero-section div.hero-left {
+.hero-wrapper div.hero-left {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -71,16 +83,16 @@ nav a:hover {
     height: 238px;
     width: 450px;
 }
-#hero-section h1 {
+.hero-wrapper h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
 }
-#hero-section p {
+.hero-wrapper p {
     margin-top: -2px;
 }
 
-#hero-section .hero-right {
+.hero-wrapper .hero-right {
     width: 522px;
     height: 238px;
     background-color: #6d747d;
@@ -88,7 +100,7 @@ nav a:hover {
     align-items: center;
     justify-content: center;
 }
-#hero-section .hero-right p {
+.hero-wrapper .hero-right p {
     color: var(--secondary-text);
     font-weight: 300;
 }
