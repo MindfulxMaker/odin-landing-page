@@ -89,7 +89,9 @@ nav a:hover {
 .hero-wrapper p {
     margin-top: -2px;
 }
-
+.hero-wrapper button {
+    font-weight: 700;
+}
 .hero-wrapper .hero-right {
     width: 522px;
     height: 238px;
@@ -177,7 +179,29 @@ nav a:hover {
     height: 430px;
     background-color: white;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+#cta {
+    width: 1024px;
+    height: 150px;
+    padding: 0 122px;
     background-color: var(--button);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.cta-left {
+
+}
+.cta-left h3 {
+    color: white;
+}
+.cta-left p {
+    color: var(--secondary-text);
 }
 
 footer {
@@ -196,7 +220,7 @@ button {
     padding: 6px 35px;
     border: 2px solid var(--button);
     border-radius: 7px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 18px;
 }
 
