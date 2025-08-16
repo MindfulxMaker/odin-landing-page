@@ -127,3 +127,27 @@ h2 {
     text-align: center;
     color: #1F2937;
 }
+
+.quotation {
+    background-color: #E5E7EB;
+    padding: 138px 0 103px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+    width: 790px;
+    margin: auto;
+}
+
+.author {
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+    text-align: right;
+    display: block;
+    margin-right: 55px;
+    font-style: normal;
+}
