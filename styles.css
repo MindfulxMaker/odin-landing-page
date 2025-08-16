@@ -48,7 +48,9 @@ a {
 .hero-content {
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 133px;
+
 }
 
 .hero-right {
@@ -65,7 +67,9 @@ a {
     align-self: center;
 }
 
-.hero-content p, a {
+.hero-content p,
+.info-item p,
+a {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -85,4 +89,41 @@ button {
     font-weight: 700;
     border: none;
     margin-top: 10px;
+}
+
+.information {
+    background-color: white;
+    padding-bottom: 122px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 55px 0;
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 49px;
+}
+
+.info-item {
+    width: 168px;
+}
+
+.illustration {
+    display: block;
+    border: 4px solid #3882F6;
+    width: 168px;
+    height: 168px;
+    border-radius: 15px;
+    margin-bottom: 8px;
+}
+
+.info-item p {
+    text-align: center;
+    color: #1F2937;
 }
